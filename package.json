@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/ngx-prerenderer",
   "description": "Angular Universal Prerenderer.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
@@ -26,6 +26,9 @@
     "precommit": "lint-staged",
     "link": "yarn run build && yarn link",
     "unlink": "yarn unlink"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "lint-staged": {
     "src/**/*.ts": [
