@@ -27,6 +27,9 @@
     "link": "yarn run build && yarn link",
     "unlink": "yarn unlink"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "lint-staged": {
     "src/**/*.ts": [
       "tslint -p tsconfig.json --fix",
