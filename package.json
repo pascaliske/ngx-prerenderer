@@ -1,0 +1,62 @@
+{
+  "name": "@pascaliske/ngx-prerenderer",
+  "description": "Angular Universal Prerenderer.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Pascal Iske",
+    "email": "info@pascal-iske.de",
+    "url": "https://pascal-iske.de"
+  },
+  "repository": {
+    "url": "https://github.com/pascaliske/ngx-prerenderer",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/pascaliske/ngx-prerenderer/issues"
+  },
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "nodemon --exec \"rm -rf dist typings && yarn run build\" --watch src --ext ts",
+    "lint": "tslint -p tsconfig.json --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "precommit": "lint-staged",
+    "link": "yarn run build && yarn link",
+    "unlink": "yarn unlink"
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "tslint -p tsconfig.json --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0 || ^7.0.0",
+    "@angular/core": "^6.0.0 || ^7.0.0",
+    "@angular/router": "^6.0.0 || ^7.0.0",
+    "chalk": "^2.0.0",
+    "fs-extra": "^7.0.1"
+  },
+  "devDependencies": {
+    "@angular/common": "^7.1.2",
+    "@angular/core": "^7.1.2",
+    "@angular/router": "^7.1.2",
+    "@types/fs-extra": "^5.0.4",
+    "@types/node": "^10.12.12",
+    "chalk": "^2.4.1",
+    "fs-extra": "^7.0.1",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "nodemon": "^1.18.7",
+    "prettier": "^1.15.3",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2"
+  }
+}
