@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - '8'
-  - '9'
+  - '11'
   - '10'
+  - '9'
 before_install: yarn global add greenkeeper-lockfile@1
 install:
   - yarn install
@@ -10,7 +10,6 @@ install:
 before_script: greenkeeper-lockfile-update
 script:
   - yarn run lint
-  - yarn run test
   - yarn run check
 after_script: greenkeeper-lockfile-upload
 deploy:
@@ -22,7 +21,7 @@ deploy:
   on:
     tags: true
     branch: master
-    node: 10
+    node: 11
 env:
   global:
     - secure: reS04c0rNAhk4x87m7OQYv1ka1233iVM2qSeobpp407iAS+kpq0/FifHOzGGdzneufWaZFuN3ZttiKK7Yynr73pC9VDAGitu1yw01mN9QecBtu4COUN2kyfZP87X0ZYrcPMrn5Wp6won+sx7QbCqic1T0ujTxbPMdeqCGomtVKvMi0aj0uB/5baJzsWe2SjKWxsuUww1T/BW6K0Ijh+zRmHKIL+qCPiqSplyJWRJ5m8OytpzjfV171cMYRkSpltlR2vUqof8UZpa+A64whcdle4GoI+b0IG+6yKCOeBOrEP3OOtw2oKZe+P2J345tGcS+nSwEwKUFa6r7sbu7lfoPB8VeyiA5DiLq2XBE76wGbIENAP1DQG/BspltFXZuRFPiFr+h3CfZWmVIUiwy7RFxPQmyAq8FP5zz1VdzCZNnXu/jegPX+xFwbG97zCvLW6ZLxAR1OAasWwBHegZQTVUKYoCdA0o2CCxV/ciTB41f7my5L5PY1i2OUEpYcy1xs4eB4S76G+2fOy6EHMag436GhkDe1yYH1ZVdl/HCUkuULBf0iy40RSG+rV0MGcjlc9h+WsmknLUtr9fJjPdJ9h+c0rG4j+g123jsT7adKJ6eu61YvM6a4/VMvqu0jCzpMOewnvw/uN9hCFdU+Z56UCsmbFALjalUuqZ89enK1MeVGw=
