@@ -18,24 +18,16 @@
   "main": "dist/index.js",
   "typings": "typings/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc --project tsconfig.json",
     "watch": "nodemon --exec \"rm -rf dist typings && yarn run build\" --watch src --ext ts",
-    "lint": "tslint -p tsconfig.json --fix",
+    "lint": "tslint --project tsconfig.json --fix",
     "check": "snyk test && snyk monitor",
     "format": "prettier --write \"src/**/*.ts\"",
-    "precommit": "lint-staged",
     "link": "yarn run build && yarn link",
     "unlink": "yarn unlink"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "lint-staged": {
-    "src/**/*.ts": [
-      "tslint -p tsconfig.json --fix",
-      "prettier --write",
-      "git add"
-    ]
   },
   "dependencies": {
     "tslib": "^1.9.3"
