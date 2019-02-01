@@ -1,8 +1,11 @@
 src
 tests
 .editorconfig
+.huskyrc
+.lintstagedrc
 .prettierrc
+.snyk
+.travis.yml
 *.code-*
-*.yml
 *.json
 *.lock
