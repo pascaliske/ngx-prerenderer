@@ -23,6 +23,7 @@
     "lint": "tslint --project tsconfig.json --fix",
     "check": "snyk test && snyk monitor",
     "format": "prettier --write \"src/**/*.ts\"",
+    "changelog": "standard-changelog --release-count 1",
     "link": "yarn run build && yarn link",
     "unlink": "yarn unlink"
   },
@@ -54,6 +55,7 @@
     "nodemon": "^1.18.9",
     "prettier": "^1.16.3",
     "snyk": "^1.124.0",
+    "standard-changelog": "^2.0.6",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
     "typescript": "^3.3.1"
