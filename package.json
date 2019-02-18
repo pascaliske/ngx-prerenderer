@@ -54,7 +54,7 @@
     "lint-staged": "^8.1.1",
     "nodemon": "^1.18.9",
     "prettier": "^1.16.3",
-    "snyk": "^1.124.0",
+    "snyk": "^1.133.0",
     "standard-changelog": "^2.0.6",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
