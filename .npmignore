@@ -1,5 +1,6 @@
 src
 tests
+.github
 .editorconfig
 .huskyrc
 .lintstagedrc
