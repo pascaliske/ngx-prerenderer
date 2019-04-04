@@ -1,15 +1,14 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "dist",
-    "sourceMap": false,
-    "declaration": true,
-    "declarationDir": "typings",
+    "target": "es5",
+    "module": "es6",
     "moduleResolution": "node",
-    "importHelpers": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "target": "es5",
+    "resolveJsonModule": true,
+    "importHelpers": true,
     "typeRoots": [
       "typings/",
       "node_modules/@types"
