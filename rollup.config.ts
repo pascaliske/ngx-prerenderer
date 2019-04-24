@@ -15,7 +15,13 @@ export default () => ({
             file: module,
         },
     ],
-    external: [...Object.keys(dependencies || {}), ...Object.keys(peerDependencies || {}), 'path'],
+    external: [
+        ...Object.keys(dependencies || {}),
+        ...Object.keys(peerDependencies || {}),
+        'fs',
+        'util',
+        'path',
+    ],
     plugins: [
         clear({
             targets: ['dist'],
@@ -23,6 +29,10 @@ export default () => ({
         }),
         typescript({
             typescript: require('typescript'),
+            tsconfigOverride: {
+                exclude: ['rollup.config.ts'],
+            },
+            useTsconfigDeclarationDir: true,
         }),
         terser(),
     ],

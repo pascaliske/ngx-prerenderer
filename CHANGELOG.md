@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/pascaliske/ngx-prerenderer/compare/v1.1.0...v1.2.0) (2019-04-24)
+
+
+### Bug Fixes
+
+* remove dependencies and import chalk only available ([3cc497e](https://github.com/pascaliske/ngx-prerenderer/commit/3cc497e))
+
+
+
 # [1.1.0](https://github.com/pascaliske/ngx-prerenderer/compare/v1.0.2...v1.1.0) (2019-04-04)
 
 
