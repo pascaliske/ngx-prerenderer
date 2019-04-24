@@ -21,7 +21,6 @@
   "scripts": {
     "build": "rollup --config rollup.config.ts",
     "watch": "rollup --config rollup.config.ts --watch",
-    "postbuild": "tsc --declaration --outDir dist --emitDeclarationOnly src/index.ts",
     "lint": "tslint --project tsconfig.json --fix",
     "check": "snyk test && snyk monitor",
     "format": "prettier --write \"src/**/*.ts\"",
