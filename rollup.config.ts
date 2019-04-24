@@ -15,7 +15,13 @@ export default () => ({
             file: module,
         },
     ],
-    external: [...Object.keys(dependencies || {}), ...Object.keys(peerDependencies || {}), 'path'],
+    external: [
+        ...Object.keys(dependencies || {}),
+        ...Object.keys(peerDependencies || {}),
+        'fs',
+        'util',
+        'path',
+    ],
     plugins: [
         clear({
             targets: ['dist'],
