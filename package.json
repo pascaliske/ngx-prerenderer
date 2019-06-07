@@ -36,19 +36,19 @@
     "tslib": "^1.9.3"
   },
   "peerDependencies": {
-    "@angular/common": "^6.0.0 || ^7.0.0",
-    "@angular/core": "^6.0.0 || ^7.0.0",
-    "@angular/platform-server": "^6.0.0 || ^7.0.0",
-    "@angular/router": "^6.0.0 || ^7.0.0",
+    "@angular/common": "^7.0.0 || ^8.0.0",
+    "@angular/core": "^7.0.0 || ^8.0.0",
+    "@angular/platform-server": "^7.0.0 || ^8.0.0",
+    "@angular/router": "^7.0.0 || ^8.0.0",
     "@nguniversal/module-map-ngfactory-loader": "^6.0.0 || ^7.0.0"
   },
   "optionalDependencies": {
     "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "@angular/common": "^7.2.14",
-    "@angular/core": "^7.2.14",
-    "@angular/router": "^7.2.14",
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@angular/router": "^8.0.0",
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
     "@types/fs-extra": "^7.0.0",
