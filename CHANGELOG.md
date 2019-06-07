@@ -1,3 +1,12 @@
+# [2.0.0](https://github.com/pascaliske/ngx-prerenderer/compare/v1.2.0...v2.0.0) (2019-06-07)
+
+
+### Features
+
+* compatibility update for angular v8 ([f3030cf](https://github.com/pascaliske/ngx-prerenderer/commit/f3030cf)), closes [#15](https://github.com/pascaliske/ngx-prerenderer/issues/15) [#20](https://github.com/pascaliske/ngx-prerenderer/issues/20)
+
+
+
 # [1.2.0](https://github.com/pascaliske/ngx-prerenderer/compare/v1.1.0...v1.2.0) (2019-04-24)
 
 
