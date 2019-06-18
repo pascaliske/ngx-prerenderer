@@ -1,6 +1,6 @@
 # Angular Universal Prerenderer
 
-[![Build Status](https://travis-ci.com/pascaliske/ngx-prerenderer.svg?branch=master)](https://travis-ci.com/pascaliske/ngx-prerenderer) [![Greenkeeper badge](https://badges.greenkeeper.io/pascaliske/ngx-prerenderer.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/pascaliske/ngx-prerenderer.svg?branch=master)](https://travis-ci.com/pascaliske/ngx-prerenderer) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=pascaliske/ngx-prerenderer)](https://dependabot.com)
 
 ## Installation
 
