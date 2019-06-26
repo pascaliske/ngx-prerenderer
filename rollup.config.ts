@@ -21,6 +21,7 @@ export default () => ({
         'fs',
         'util',
         'path',
+        'chalk',
     ],
     plugins: [
         clear({
