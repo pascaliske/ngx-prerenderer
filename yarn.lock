@@ -2984,10 +2984,10 @@ rollup-plugin-clear@^2.0.7:
   dependencies:
     rimraf "^2.6.2"
 
-rollup-plugin-execute@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-execute/-/rollup-plugin-execute-1.1.0.tgz#35a697de0e48330e21d21e1bbbc05c218f78b117"
-  integrity sha512-66Z3lgHWuwnx4YOwL3v4uTPLoLLtXIzzWdfhYhi+qZrv94D5f2zT7QDLkFpWqMZQ6tINf0TM1RMR5YBRQ6bmow==
+rollup-plugin-execute@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-execute/-/rollup-plugin-execute-1.1.1.tgz#ee7bcb293e48bc599232b66b66473763e3cb8965"
+  integrity sha512-isCNR/VrwlEfWJMwsnmt5TBRod8dW1IjVRxcXCBrxDmVTeA1IXjzeLSS3inFBmRD7KDPlo38KSb2mh5v5BoWgA==
 
 rollup-plugin-terser@^5.1.1:
   version "5.1.1"
