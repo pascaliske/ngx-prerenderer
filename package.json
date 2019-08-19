@@ -56,7 +56,7 @@
     "@types/mkdirp": "^0.5.2",
     "@types/node": "^12.7.2",
     "husky": "^3.0.3",
-    "lint-staged": "^9.2.1",
+    "lint-staged": "^9.2.3",
     "prettier": "^1.17.0",
     "rollup": "^1.19.4",
     "rollup-plugin-clear": "^2.0.7",
