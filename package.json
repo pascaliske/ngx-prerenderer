@@ -54,7 +54,7 @@
     "@pascaliske/tsconfig": "^1.0.4",
     "@types/fs-extra": "^8.0.1",
     "@types/mkdirp": "^0.5.2",
-    "@types/node": "^12.11.2",
+    "@types/node": "^12.11.3",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "prettier": "^1.17.0",
