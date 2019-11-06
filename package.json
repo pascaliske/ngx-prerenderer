@@ -65,7 +65,7 @@
     "rollup-plugin-typescript2": "^0.24.3",
     "snyk": "^1.243.0",
     "standard-changelog": "^2.0.15",
-    "tslint": "^6.0.0-beta0",
+    "tslint": "^6.0.0-beta1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.2"
   }
