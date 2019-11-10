@@ -64,7 +64,7 @@
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-typescript2": "^0.25.2",
     "snyk": "^1.244.0",
-    "standard-changelog": "^2.0.15",
+    "standard-changelog": "^2.0.17",
     "tslint": "^6.0.0-beta1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.2"
