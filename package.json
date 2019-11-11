@@ -43,7 +43,7 @@
     "@nguniversal/module-map-ngfactory-loader": "^6.0.0 || ^7.0.0"
   },
   "optionalDependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^3.0.0"
   },
   "devDependencies": {
     "@angular/common": "^8.2.13",
