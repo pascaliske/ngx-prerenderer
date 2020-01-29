@@ -8,26 +8,6 @@
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
         "editor.formatOnPaste": true,
-        "typescript.tsdk": "node_modules/typescript/lib",
-        "[yaml]": {
-            "editor.formatOnSave": false,
-            "editor.formatOnType": false,
-            "editor.formatOnPaste": false
-        },
-        "[json]": {
-            "editor.formatOnSave": false,
-            "editor.formatOnType": false,
-            "editor.formatOnPaste": false
-        },
-        "[jsonc]": {
-            "editor.formatOnSave": false,
-            "editor.formatOnType": false,
-            "editor.formatOnPaste": false
-        },
-        "[javascript]": {
-            "editor.formatOnSave": false,
-            "editor.formatOnType": false,
-            "editor.formatOnPaste": false
-        }
-    },
+        "typescript.tsdk": "node_modules/typescript/lib"
+    }
 }
