@@ -47,9 +47,9 @@
     "chalk": "^3.0.0"
   },
   "devDependencies": {
-    "@angular/common": "^8.2.13",
-    "@angular/core": "^8.2.13",
-    "@angular/router": "^8.2.13",
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/router": "^8.2.14",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@pascaliske/prettier-config": "^1.0.2",
@@ -67,7 +67,7 @@
     "rollup-plugin-typescript2": "^0.25.3",
     "snyk": "^1.286.1",
     "standard-changelog": "^2.0.21",
-    "tslint": "^6.0.0-beta1",
+    "tslint": "^6.0.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.5"
   }
