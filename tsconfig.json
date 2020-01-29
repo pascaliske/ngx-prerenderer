@@ -2,9 +2,7 @@
   "extends": "@pascaliske/tsconfig",
   "compilerOptions": {
     "declarationDir": "dist",
-    "lib": [
-      "es2018",
-      "dom"
-    ]
+    "lib": ["es2018", "dom"],
+    "typeRoots": ["node_modules/@types"]
   }
 }
