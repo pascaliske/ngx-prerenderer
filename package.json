@@ -55,7 +55,7 @@
     "@pascaliske/prettier-config": "^1.0.2",
     "@pascaliske/tsconfig": "^1.0.4",
     "@types/fs-extra": "^8.0.1",
-    "@types/node": "^13.5.1",
+    "@types/node": "^13.5.2",
     "husky": "^4.2.1",
     "lint-staged": "^10.0.4",
     "prettier": "^1.19.1",
