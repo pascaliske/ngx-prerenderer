@@ -20,7 +20,6 @@ export type RendererFn = (routes: Routes, factory: NgModuleFactory<any>, map?: a
 export function create(renderModuleFactory: any, provideModuleMap: any): RendererFn {
     // helper functions
     const readFileAsync = promisify(readFile)
-    const mkdirpAsync = promisify(mkdirp)
     const writeFileAsync = promisify(writeFile)
 
     return async (routes: Routes, factory: NgModuleFactory<any>, map?: any): Promise<void> => {
@@ -44,7 +43,7 @@ export function create(renderModuleFactory: any, provideModuleMap: any): Rendere
                     extraProviders: map ? [provideModuleMap(map)] : [],
                 })
 
-                await mkdirpAsync(dirname(file))
+                await mkdirp(dirname(file))
                 await writeFileAsync(file, rendered)
 
                 console.log(`rendered ${colorize('/' + path)} -> ${colorize(file)}`)
