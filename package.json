@@ -69,6 +69,6 @@
     "standard-changelog": "^2.0.24",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.2"
   }
 }
