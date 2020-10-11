@@ -35,7 +35,7 @@
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
     "mkdirp": "^1.0.4",
-    "tslib": "^1.14.0"
+    "tslib": "^1.14.1"
   },
   "peerDependencies": {
     "@angular/common": "^7.0.0 || ^8.0.0 || ^9.0.0",
