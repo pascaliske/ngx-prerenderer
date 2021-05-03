@@ -54,7 +54,7 @@
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
     "@pascaliske/prettier-config": "^1.1.1",
-    "@pascaliske/tsconfig": "^1.0.4",
+    "@pascaliske/tsconfig": "^1.0.5",
     "@types/fs-extra": "^9.0.11",
     "@types/node": "^14.14.41",
     "bump-cli": "^1.1.3",
