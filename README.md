@@ -42,4 +42,4 @@ prerender(routes, AppServerModuleNgFactory, LAZY_MODULE_MAP)
 
 ## License
 
-MIT © [Pascal Iske](https://pascal-iske.de)
+MIT © [Pascal Iske](https://pascaliske.dev)
