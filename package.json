@@ -50,7 +50,7 @@
     "@angular/common": "^11.2.12",
     "@angular/core": "^11.2.12",
     "@angular/router": "^11.2.12",
-    "@commitlint/cli": "^12.1.1",
+    "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@pascaliske/prettier-config": "^1.1.1",
     "@pascaliske/tsconfig": "^1.0.5",
