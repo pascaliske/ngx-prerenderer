@@ -2,26 +2,26 @@
 # yarn lockfile v1
 
 
-"@angular/common@^11.2.12":
-  version "11.2.12"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-11.2.12.tgz#ffa917f708136ed5ccd8b2ad22c50128d8b94af6"
-  integrity sha512-PEg2K/gNm7xia4WJn9hDieJiPvaJtfBaI5RGriVuGhvss2rNg3yKjkt8q0+6CoN/PWJ1Yi6BRgdCAOqt25SiWA==
+"@angular/common@^12.0.1":
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-12.0.1.tgz#85a42335ea1aacfdf3f90ff566d58e54fe100164"
+  integrity sha512-Jfmc9nFO43dEJgSBd/We9XEosfdUTRzvjEEW4s9cL24TVb3bnNjqeb862VY20M6N44kJ8ayi5gt5L7UwmGLF6g==
   dependencies:
-    tslib "^2.0.0"
+    tslib "^2.1.0"
 
-"@angular/core@^11.2.12":
-  version "11.2.12"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.2.12.tgz#678e9a160859df33ea4110273beaaff80f04b7cc"
-  integrity sha512-YnHzPNFZIfeIUJrVz+AJSNzufshzVIL3qg9CvKIUQPIjiQt2wxGLSi9KHEupxLrxfdh9gZ3C0gc8weASSkbQpg==
+"@angular/core@^12.0.1":
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-12.0.1.tgz#929cfca8afb9d1517ebc6eb6a813d9cf6215bacf"
+  integrity sha512-DA5hl0Hl97KTWbktXg1O3+Pt34hwsF1iY2l+8fSexfsKawHhZQuBjGnm8JNuIvKbu70MqHX0OBf2vNTK/Z06HQ==
   dependencies:
-    tslib "^2.0.0"
+    tslib "^2.1.0"
 
-"@angular/router@^11.2.12":
-  version "11.2.12"
-  resolved "https://registry.yarnpkg.com/@angular/router/-/router-11.2.12.tgz#c3bd0a1e4ea975ffb4d4f2ce9c3d317c54192bec"
-  integrity sha512-Y5rM1M6MXhAdRewRDFy/F4OKI58kF/rMOPP/PVYERsH6W2ShkQqMDoHaP7/AFSJ0+x6zT87u669CSv/TlJn+sg==
+"@angular/router@^12.0.1":
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-12.0.1.tgz#b999d3555940b4726f84a12bf71a37cc75ac25d2"
+  integrity sha512-1T0WxnUlP7IsvhDCuQi0jCrni6GGtih96M/Hv7h4jl+UxLZO1VuVyar4In8yl0/FrgaA8TbZXSuzT2K+AjEKNw==
   dependencies:
-    tslib "^2.0.0"
+    tslib "^2.1.0"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
@@ -181,15 +181,15 @@
   dependencies:
     chalk "^4.0.0"
 
-"@pascaliske/prettier-config@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@pascaliske/prettier-config/-/prettier-config-1.1.1.tgz#69297e36c7f735b446a0fbde4e0567254186d4c2"
-  integrity sha512-S8yr8oTBakOYu5aLRD9F/RtQq0i/8jVJ22iJKe5ow3cYs2su4maF16HlDaIxm01dTfnUB0/jaVcAXlOmwF004A==
+"@pascaliske/prettier-config@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@pascaliske/prettier-config/-/prettier-config-1.1.2.tgz#3da84166ffe399c85c0210b8f29cd28c6b01bf76"
+  integrity sha512-mQvCGQVBC9uopeueA15TlFbBu9ycP5kl+0Hj4ga20ly0P866yTT+4HSlc/fs7j/l21XwPluNnLVCzicr6ylMSQ==
 
-"@pascaliske/tsconfig@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@pascaliske/tsconfig/-/tsconfig-1.0.5.tgz#f220889ea651104fb3e38e32865f55d6e2959059"
-  integrity sha512-XNWay16kStpr7nSVFDyB/LBVaALBdKb2AQmj55d3Z2d4pN6esuxCm367MFHGBcmsXhFPvQzx8uqDpZUhVAm7/w==
+"@pascaliske/tsconfig@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@pascaliske/tsconfig/-/tsconfig-1.0.6.tgz#9a4a99f6ee44b5df548e6b9da4a69aa0278743b2"
+  integrity sha512-zkHui7NyprhAaaQWRppWXxQfkIFZu+WyhQYlQt9W95ganFyUWCJdaXHNhInmy5NkuD3hoRukGiFLRVxyFHJrKg==
 
 "@rollup/pluginutils@^4.1.0":
   version "4.1.0"
@@ -2374,7 +2374,7 @@ tslib@^1.13.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.0, tslib@^2.2.0:
+tslib@^2.1.0, tslib@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
   integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
