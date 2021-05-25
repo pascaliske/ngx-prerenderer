@@ -1,3 +1,7 @@
+## [2.0.6](https://github.com/pascaliske/ngx-prerenderer/compare/v2.0.5...v2.0.6) (2021-05-25)
+
+
+
 ## [2.0.5](https://github.com/pascaliske/ngx-prerenderer/compare/v2.0.4...v2.0.5) (2021-05-03)
 
 
