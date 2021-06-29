@@ -56,7 +56,7 @@
     "@pascaliske/tsconfig": "^1.0.6",
     "@rstacruz/bump-cli": "^2.0.0",
     "@types/fs-extra": "^9.0.11",
-    "@types/node": "^15.12.2",
+    "@types/node": "^15.12.5",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
