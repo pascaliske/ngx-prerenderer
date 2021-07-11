@@ -55,7 +55,7 @@
     "@pascaliske/prettier-config": "^1.1.2",
     "@pascaliske/tsconfig": "^1.0.6",
     "@rstacruz/bump-cli": "^2.0.0",
-    "@types/fs-extra": "^9.0.11",
+    "@types/fs-extra": "^9.0.12",
     "@types/node": "^16.3.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
