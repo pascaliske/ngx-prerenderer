@@ -57,7 +57,7 @@
     "@rstacruz/bump-cli": "^2.0.0",
     "@types/fs-extra": "^9.0.11",
     "@types/node": "^16.3.0",
-    "husky": "^6.0.0",
+    "husky": "^7.0.1",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
     "rollup": "^2.53.0",
