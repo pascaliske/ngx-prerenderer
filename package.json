@@ -59,7 +59,7 @@
     "@types/node": "^16.4.1",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.3",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.1",
     "rollup": "^2.58.0",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-execute": "^1.1.1",
