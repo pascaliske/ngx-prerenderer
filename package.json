@@ -58,7 +58,7 @@
     "@types/fs-extra": "^9.0.13",
     "@types/node": "^16.11.4",
     "husky": "^7.0.4",
-    "lint-staged": "^11.2.4",
+    "lint-staged": "^11.2.5",
     "prettier": "^2.4.1",
     "rollup": "^2.58.3",
     "rollup-plugin-clear": "^2.0.7",
