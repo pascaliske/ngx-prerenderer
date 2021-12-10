@@ -27,3 +27,8 @@ updates:
       - dependencies
     ignore:
       - dependency-name: '@angular/*'
+        update-types:
+          - version-update:semver-major
+      - dependency-name: '@nguniversal/*'
+        update-types:
+          - version-update:semver-major
