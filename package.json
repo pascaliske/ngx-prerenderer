@@ -52,7 +52,7 @@
     "@angular/router": "^13.2.2",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
-    "@pascaliske/prettier-config": "^1.1.5",
+    "@pascaliske/prettier-config": "^1.2.0",
     "@pascaliske/tsconfig": "^1.0.7",
     "@rstacruz/bump-cli": "^2.0.1",
     "@types/fs-extra": "^9.0.13",
