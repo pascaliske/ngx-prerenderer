@@ -51,7 +51,7 @@
     "@angular/core": "^13.2.2",
     "@angular/router": "^13.2.2",
     "@commitlint/cli": "^17.2.0",
-    "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/config-conventional": "^17.2.0",
     "@pascaliske/prettier-config": "^1.2.0",
     "@pascaliske/tsconfig": "^1.0.7",
     "@rstacruz/bump-cli": "^2.0.1",
